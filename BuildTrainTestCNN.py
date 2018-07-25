@@ -54,4 +54,4 @@ class NNModel:
         if image is None:
             return None
         image = image.reshape([-1, FACE_SIZE, FACE_SIZE, 1])
-return self.model.predict(image)
+        return self.model.predict(image)
